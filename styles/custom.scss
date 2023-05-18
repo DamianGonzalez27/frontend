@@ -1,0 +1,29 @@
+.backgraund-principal-blue{
+    background: linear-gradient(to top, #0388fb 0%, #043a68 100%) !important;
+}
+
+.backgraund-secondary-blue{
+    background: linear-gradient(to top, #043a68 0%, #0388fb 100%) !important;
+}
+
+.backgraund-principal-orange{
+    background: linear-gradient(to top, #fe7f00 0%, #fe1a00 100%) !important;
+}
+.backgraund-secondary-orange{
+    background: linear-gradient(to top, #fe1a00 0%, #fe7f00 100%) !important;
+}
+
+.clickable{
+    &:hover{
+        cursor: pointer !important;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.menu-item-clickable{
+    &:hover{
+        cursor: pointer !important;
+        background-color: grey;
+        color: white !important;
+    }
+}
